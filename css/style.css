@@ -1,0 +1,23 @@
+body{
+    background-color: #fefeff;
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 0.5s all;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  
+ 
+}
+
+#box:hover {
+    background-color: blue;
+    border-radius: 30px;
+    rotate:45deg;
+}
